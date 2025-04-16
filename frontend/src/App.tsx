@@ -7,7 +7,7 @@ function App() {
   const [signupVisible, setSignupVisible] = useState<boolean>(false);
 
   return (
-    <>
+    <div className="test-container">
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
@@ -23,7 +23,7 @@ function App() {
         </button>
       </div>
       {signupVisible && <LoginForm onCancel={() => setSignupVisible(false)} />}
-    </>
+    </div>
   );
 }
 

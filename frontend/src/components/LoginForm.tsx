@@ -68,7 +68,7 @@ export default function LoginForm({ onCancel }: LoginFormProps) {
           />
           <div className="flex justify-evenly pt-2 mx-2">
             <button onClick={onCancel}>취소</button>
-            <button>가입하기</button>
+            <button onClick={onCancel}>가입하기</button>
           </div>
         </form>
       </div>
